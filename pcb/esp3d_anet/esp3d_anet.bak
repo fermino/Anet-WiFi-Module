@@ -1,0 +1,176 @@
+EESchema Schematic File Version 4
+LIBS:esp3d_anet-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5F80773E
+P 2800 1000
+F 0 "J1" H 2850 1317 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 2850 1226 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 2800 1000 50  0001 C CNN
+F 3 "~" H 2800 1000 50  0001 C CNN
+	1    2800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push RESET
+U 1 1 5F8079D0
+P 2400 1850
+F 0 "RESET" H 2400 2135 50  0000 C CNN
+F 1 "SW_Push" H 2400 2044 50  0000 C CNN
+F 2 "esp3d_anet:SW_PUSH_6mm_Opposite" H 2400 2050 50  0001 C CNN
+F 3 "" H 2400 2050 50  0001 C CNN
+	1    2400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J4
+U 1 1 5F807A87
+P 1200 2450
+F 0 "J4" H 1280 2442 50  0000 L CNN
+F 1 "Conn_01x08" H 1280 2351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 1200 2450 50  0001 C CNN
+F 3 "~" H 1200 2450 50  0001 C CNN
+	1    1200 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 1150 2    50   Input ~ 0
+GND
+Text GLabel 2600 900  0    50   Input ~ 0
+GND
+Text GLabel 3100 1000 2    50   Input ~ 0
+3V3
+Text GLabel 2200 1850 0    50   Input ~ 0
+GND
+Text GLabel 2600 1100 0    50   Input ~ 0
+BOOT_MODE
+Text GLabel 3100 900  2    50   Input ~ 0
+ESP_TX
+Text GLabel 1500 850  2    50   Input ~ 0
+ESP_RX
+Text GLabel 2600 1200 0    50   Input ~ 0
+ESP_RX
+Text GLabel 3100 1100 2    50   Input ~ 0
+RESET
+Text GLabel 850  1850 0    50   Input ~ 0
+GND
+Text GLabel 1250 1850 2    50   Input ~ 0
+BOOT_MODE
+Text GLabel 2600 1850 2    50   Input ~ 0
+RESET
+Text GLabel 2600 1000 0    50   Input ~ 0
+LED_OUT
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5F807EFB
+P 3800 2350
+F 0 "J3" H 3880 2392 50  0000 L CNN
+F 1 "Conn_01x03" H 3880 2301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 3800 2350 50  0001 C CNN
+F 3 "~" H 3800 2350 50  0001 C CNN
+	1    3800 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 2250 0    50   Input ~ 0
+GND
+Text GLabel 3600 2350 0    50   Input ~ 0
+LED_OUT
+Text GLabel 3600 2450 0    50   Input ~ 0
+5V
+Text GLabel 1500 1250 2    50   Input ~ 0
+3V3
+Text GLabel 3100 1200 2    50   Input ~ 0
+3V3
+Text GLabel 1500 1050 2    50   Input ~ 0
+3D_MOSI
+Text GLabel 1500 950  2    50   Input ~ 0
+5V
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5F808170
+P 1200 1050
+F 0 "J2" H 1250 1467 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1250 1376 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1200 1050 50  0001 C CNN
+F 3 "~" H 1200 1050 50  0001 C CNN
+	1    1200 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 2150 0    50   Input ~ 0
+GND
+Text GLabel 1000 2250 0    50   Input ~ 0
+3V3
+Text GLabel 1000 2350 0    50   Input ~ 0
+5V
+Text GLabel 1000 2450 0    50   Input ~ 0
+3D_SCK
+Text GLabel 1000 2550 0    50   Input ~ 0
+3D_MISO
+Text GLabel 1000 2650 0    50   Input ~ 0
+3D_MOSI
+Text GLabel 1000 2750 0    50   Input ~ 0
+3D_RESET
+Text GLabel 1000 2850 0    50   Input ~ 0
+3D_FAN
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 5F8086D5
+P 2550 2450
+F 0 "J5" H 2630 2442 50  0000 L CNN
+F 1 "Conn_01x08" H 2630 2351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 2550 2450 50  0001 C CNN
+F 3 "~" H 2550 2450 50  0001 C CNN
+	1    2550 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 2150 0    50   Input ~ 0
+GND
+Text GLabel 2350 2250 0    50   Input ~ 0
+3V3
+Text GLabel 2350 2350 0    50   Input ~ 0
+5V
+Text GLabel 2350 2450 0    50   Input ~ 0
+3D_SCK
+Text GLabel 2350 2550 0    50   Input ~ 0
+3D_MISO
+Text GLabel 2350 2650 0    50   Input ~ 0
+3D_MOSI
+Text GLabel 2350 2750 0    50   Input ~ 0
+3D_RESET
+Text GLabel 2350 2850 0    50   Input ~ 0
+3D_FAN
+Text GLabel 1000 1250 0    50   Input ~ 0
+3D_FAN
+Text GLabel 1000 1150 0    50   Input ~ 0
+3D_RESET
+Text GLabel 1000 1050 0    50   Input ~ 0
+3D_SCK
+Text GLabel 1000 950  0    50   Input ~ 0
+3D_MISO
+Text GLabel 1000 850  0    50   Input ~ 0
+ESP_TX
+$Comp
+L Switch:SW_Push UPLOAD_MODE
+U 1 1 5F80B3FE
+P 1050 1850
+F 0 "UPLOAD_MODE" H 1050 2135 50  0000 C CNN
+F 1 "SW_Push" H 1050 2044 50  0000 C CNN
+F 2 "esp3d_anet:SW_PUSH_6mm_Opposite" H 1050 2050 50  0001 C CNN
+F 3 "" H 1050 2050 50  0001 C CNN
+	1    1050 1850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
